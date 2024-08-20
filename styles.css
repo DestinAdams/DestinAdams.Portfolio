@@ -306,15 +306,3 @@ nav .list a {
   display: flex;
 
 }
-
-
-#slide3 {
-}
-
-#slide4 {
-}
-
-/* Optional: Scroll snapping for better experience */
-html {
-    scroll-snap-type: y mandatory ;
-}
