@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destin Adams Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <nav>
+            <div class="list">
+                <a href="#projects-wrapper" class="projects-btn">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="/Users/destinadams/ASU/Fall2023_Current/Websites/WebsitePortfolio/Destin_Adams_Resumepdf.pdf"
+                    target="_blank">Resume</a>
+            </div>
+        </nav>
+        <section class="profile">
+            <div class="introduction">
+                <img class="profile-pic" src="ProfPic.jpeg" alt="Profile Picture" />
+                <div class="text-introduction">
+                    <h1 class="intro-name">Hello, I'm Destin</h1>
+                    <h2 class="intro-job">a Computer Systems Engineer</h2>
+                    <p class="intro-hook">Computer Systems Engineering Junior with object-oriented programming and
+                        Verilog experience. Seeking internship opportunities in summer 2025.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="slide" id="project1">
+        <div class="content">
+            <img class="project-pic" src="activityTrackerThumb.png" alt="Project Image">
+            <h1>Project 1: Inventory System</h1>
+            <p>Description: A C++ inventory system with MySQL database integration, featuring object-oriented
+                programming concepts.</p>
+            <a href="#" class="button">View Project</a>
+        </div>
+    </div>
+    <div class="slide" id="project2">
+        <div class="content">
+            <h1>Project 2: RSVP Event App</h1>
+            <p>Description: An RSVP event application integrated into a website allowing users to sign up for events
+                smoothly.</p>
+            <a href="#" class="button">View Project</a>
+        </div>
+    </div>
+    <div class="slide" id="project3">
+        <div class="content">
+            <h1>Project 3: E-commerce Store</h1>
+            <p>Description: A Shopify store for selling pre-owned watches, featuring a modern and user-friendly design.
+            </p>
+            <a href="#" class="button">View Project</a>
+        </div>
+    </div>
+    <div class="projects-wrapper" id="projects-wrapper">
+        <!-- <h2 class="projects-title">Projects</h2>
+        <div class="cards-container">
+            <div class="slide" id="slide2">
+                <div class="card">
+                    <img src="q7v5vx3butrngonw4jkmdi6pmtajujz-58547470417.shopifypreview.png" alt="Project Image">
+                    <h2>Oliver Smith Jeweler Website</h2>
+                    <h3>Web Developer at Oliver Smith Jeweler</h3>
+                    <ul>
+                        <li>
+                            <strong>Bespoke Shopify Website Creation:</strong> Led the development of a customized
+                            Shopify website, aligning with the brand's aesthetics using HTML and CSS to enhance online
+                            presence and customer engagement.
+                        </li>
+                        <li>
+                            <strong>Integration and Customization:</strong> Installed and tailored an Edge-Shopify
+                            integration for seamless product updates, optimizing operational efficiency and customer
+                            experience.
+                        </li>
+                        <li>
+                            <strong>Customer Service Optimization:</strong> Improved user interfaces and implemented
+                            user-friendly features for a seamless shopping experience, boosting customer satisfaction.
+                        </li>
+                        <li>
+                            <strong>IT Security and Collaboration:</strong> Collaborated with IT companies to manage
+                            website security and email firewall services, protecting digital assets.
+                        </li>
+                        <li>
+                            <strong>Partnership Development:</strong> Established and maintained partnerships with
+                            high-end watch companies, creating dedicated website sections to expand product offerings
+                            and strengthen industry relationships.
+                        </li>
+                    </ul>
+                    <p>In summary, my role involved customizing and optimizing the online platform to reflect the brand
+                        identity, ensuring operational efficiency and security.</p>
+                    <div class="buttons-container">
+                        <a href="link-to-code" class="button">Code</a>
+                        <a href="https://oliversmithjeweler.com/" class="button">Site</a>
+                    </div>
+                    <p class="languages">CSS, HTML, LIQUID, SHOPIFY</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="efa6e7b3-7492-4f9e-a864-281fe84a34aa.jpeg" alt="Project Image">
+                <h2>WatchWeekAspen Website</h2>
+                <p>Bespoke Website made for the Annual Watch Week Aspen made to highlight multiple events that users can
+                    RSVP for.</p>
+                <div class="buttons-container">
+                    <a href="link-to-code" class="button">Code</a>
+                    <a href="https://www.watchweekaspen.com/" class="button">Site</a>
+                </div>
+                <p class="languages">CSS, HTML, JAVASCRIPT, SQUARESPACE </p>
+            </div>
+            <div class="card">
+                <img src="activityTrackerThumb.png" alt="Project Image">
+                <h2>Activity Tracker</h2>
+                <button class="accordion">
+                    <h2>Objective</h2>
+                </button>
+                <div class="panel">
+                    <p>Develop a simplified version of an activity tracking device (e.g., Fitbit) on an FPGA. The
+                        project
+                        involves:
+                    </p>
+                    <ul>
+                        <li>Embedded input generation for testing hardware designs.</li>
+                        <li>Displaying meaningful output on seven-segment displays.</li>
+                    </ul>
+                </div>
+                <button class="accordion">
+                    <h2>Circuit Structure</h2>
+                </button>
+                <div class="panel">
+                    <p>The circuit consists of the following parts:</p>
+                    <ul>
+                        <li><strong>Buttons</strong>: Used to start or stop a pulse generator.</li>
+                        <li><strong>Pulse Generator</strong>: Generates pulses representing steps, depending on mode
+                            settings.</li>
+                        <li><strong>Fitbit Tracker Module</strong>: Counts the pulses (steps) and performs measurements
+                            based on the count.</li>
+                        <li><strong>Display Controller</strong>: Converts binary step count to BCD and displays the
+                            count on
+                            a 7-segment display.</li>
+                    </ul>
+                </div>
+                <button class="accordion">
+                    <h2>General Requirements</h2>
+                </button>
+                <div class="panel">
+                    <ul>
+                        <li>Inputs from buttons must be debounced.</li>
+                        <li>All user-created modules must include a synchronous reset.</li>
+                        <li>All synchronous modules must use the 100 MHz system clock.</li>
+                    </ul>
+                </div>
+                <button class="accordion">
+                    <h2>Module Details</h2>
+                </button>
+                <div class="panel">
+                    <h3>Pulse Generator (Milestone 1)</h3>
+                    <p><strong>Inputs</strong>: MODE, START, STOP, system clock, reset.</p>
+                    <p>Generates pulses based on mode:</p>
+                    <ul>
+                        <li>Walk mode (MODE = <code>2’b00</code>): 32 pulses/sec.</li>
+                        <li>Jog mode (MODE = <code>2’b01</code>): 64 pulses/sec.</li>
+                        <li>Run mode (MODE = <code>2’b10</code>): 128 pulses/sec.</li>
+                        <li>Off mode (MODE = <code>2’b11</code>): No pulses.</li>
+                    </ul>
+                </div>
+
+                <button class="accordion">
+                    <h2>Fitbit Tracker (Milestone 1)</h2>
+                </button>
+                <div class="panel">
+                    <p><strong>Inputs</strong>: Pulse sequence, system clock, reset.</p>
+                    <p>Functions:</p>
+                    <ul>
+                        <li><strong>Total Step Count</strong>: Counts pulses up to 9999, then asserts OFLOW. Steps
+                            continue
+                            counting for distance calculation.</li>
+                        <li><strong>Distance Covered</strong>: Displayed in 0.5-mile increments up to 9.5 miles.
+                            Distance
+                            calculation based on 2048 steps per 0.5 mile.</li>
+                    </ul>
+                </div>
+                <button class="accordion">
+                    <h2>Binary to BCD Converter (Milestone 2)</h2>
+                </button>
+                <div class="panel">
+                    <p>Converts step count from binary to BCD using the "double dabble" algorithm. Alternatively, the
+                        tracker can count directly in BCD, eliminating the need for conversion.</p>
+                </div>
+                <button class="accordion">
+                    <h2>7-Segment Display Driver (Milestone 2)</h2>
+                </button>
+                <div class="panel">
+                    <p>Displays information on the 7-segment displays. Switches between digits at approximately 1 kHz.
+                    </p>
+
+                    <h2>Display Specifications</h2>
+                    <p>Information displayed in a rotating sequence every 2 seconds: Total step count, Total distance,
+                        Mode.
+                        Saturate display at 9999 for step count but continue accurate distance calculation.</p>
+                </div>
+                <button class="accordion">
+                    <h2>Debouncer and IP Core Integration</h2>
+                </button>
+                <div class="panel">
+                    <p>Utilize IP cores for debouncing START and STOP buttons. Connect IP cores using Xilinx Vivado's
+                        Block
+                        Design.</p>
+                </div>
+                <div class="buttons-container">
+                    <a href="link-to-code" class="button">Code</a>
+                </div>
+                <p class="languages">Verilog</p>
+            </div>
+
+        </div> -->
+    </div>
+    <div class="skills-section" id="skills">
+        <h2 class="lang">Languages</h2>
+        <div class="skills">
+            <div class="skill hidden">
+                <div class="skill-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="" />
+                </div>
+                <p>C++</p>
+            </div>
+
+            <div class="skill hidden">
+                <div class="skill-img">
+                    <img src="https://static-00.iconduck.com/assets.00/file-type-verilog-icon-256x256-goe8p7qm.png"
+                        alt="" />
+                </div>
+                <p>Verilog</p>
+            </div>
+
+            <div class="skill hidden">
+                <div class="skill-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="" />
+                </div>
+                <p>HTML</p>
+            </div>
+
+            <div class="skill hidden">
+                <div class="skill-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="" />
+                </div>
+                <p>CSS</p>
+            </div>
+
+            <div class="skill hidden">
+                <div class="skill-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="" />
+                </div>
+                <p>Javascript</p>
+            </div>
+
+            <div class="skill hidden">
+                <div class="skill-img">
+                    <img src="https://lirp.cdn-website.com/1764a706/dms3rep/multi/opt/Shopify+Liquid+Programming+Framework+Logo-1920w.png"
+                        alt="" />
+                </div>
+                <p>Liquid</p>
+            </div>
+
+        </div>
+</body>
+
+</html>
